@@ -1,0 +1,59 @@
+.container{
+    @apply px-4 max-w-[1360px] w-full m-auto
+}
+
+
+:root{
+    --primary:#3F41A6;
+    --secondary:#1A093C;
+    --gray:#787282;
+}
+.transition3{
+    transition: all ease .1s;
+}
+.text-primary{
+    @apply text-[color:var(--primary)]
+}
+.text-secondary{
+    @apply text-[color:var(--secondary)]
+}
+.bg-primary{
+    @apply bg-[color:var(--primary)]
+
+}
+.sectionPadding{
+    @apply py-40 lg:py-32 md:py-24
+}
+
+.tabButton{
+    @apply px-8 hover:shadow-xl transition3   py-2.5 rounded-full border-2 border-[color:var(--primary)] text-primary font-medium
+}
+.tabButton.active{
+    @apply bg-[color:var(--primary)] text-white shadow-xl
+}
+
+
+.sectionPaddingTop{
+    @apply  pt-40 lg:pt-32
+}
+.sectionPaddingBottom{
+    @apply  pb-40 lg:pb-32
+}
+.themeButton{
+   @apply  py-4 w-max px-8 bg-primary text-lg text-white font-medium rounded-full flex items-center gap-2
+}
+
+
+
+.themeButton .arrow{
+    @apply h-6 w-6 rounded-full bg-[#f9f9fca4] flex items-center justify-center
+}
+
+
+.navLinks{
+    @apply text-lg font-medium  text-[color:var(--gray)] hover:text-[color:var(--secondary)]
+}
+
+.ball {
+    @apply w-28 h-28 rounded-full bg-red-400 
+}
