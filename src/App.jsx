@@ -11,13 +11,14 @@ import Footer from './components/Footer/Footer'
 function App() {
   return (
     <>
-    <Header/>
-    <Hero/>
+    <Header />
+    <Hero />
     <Section2 />
     <Section3 />
     <Section5 />
     <Section6 />
     {/* <Footer /> */}
+    
     </>
   )
 }
